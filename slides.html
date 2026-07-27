@@ -76,202 +76,219 @@ const slide = (section, html) => S.push({section, html});
 
 /* ————— TITLE ————— */
 slide('', `
-  <p class="eyebrow">Shadow Legion · Word Bearers thrall-host · doctrine briefing</p>
+  <p class="eyebrow">Shadow Legion · Word Bearers host · battle briefing</p>
   <h1>The <span class="red">Blood</span> and the <span class="red">Shadow</span></h1>
-  <p class="lead">Battle plan and tactics for Evan's Yo-Yo Court and the two top-table Shadow Legion
-     lists it grows into. Points per MFM v1.1 (22 Jul 2026), rules verified against Wahapedia 11e.</p>
-  <p class="lead" style="margin-top:26px">Navigate: <span class="kbd">→</span> <span class="kbd">←</span> keys,
-     the buttons below, or click the dots. <span class="kbd">Home</span> returns here.</p>
+  <p class="lead">The battle plan for your army — and for the two tournament armies yours can grow into.
+     Every rule here was checked against the current official points and rulebook (July 2026).</p>
+  <p class="lead" style="margin-top:26px">Move through the slides with the <span class="kbd">→</span> and
+     <span class="kbd">←</span> keys, the buttons below, or the dots. <span class="kbd">Home</span> returns here.</p>
 `);
 
 /* ————— I. STRATEGY ————— */
 slide('I · Strategy', `
   <div class="chapter"><div class="numeral">I</div>
   <h1>Overall Army Strategy</h1>
-  <p class="lead">One idea underneath everything: you are not trying to kill the enemy army.
-     You are trying to own the board while it exhausts itself killing things that refuse to stay dead.</p></div>
+  <p class="lead">One idea sits underneath everything: you are not trying to wipe out the enemy army.
+     You are trying to control the board while the enemy exhausts itself killing things that refuse to stay dead.</p></div>
 `);
 slide('I · Strategy', `
   <h2>Three layers, one shadow</h2>
   <ul class="pts">
-    <li><b>Screens</b> — Nurglings and Cultists. Cheap bodies that stand in the way. They deny enemy
-        deep strikes, block charge lanes, and die so nothing important has to. Losing them on schedule is winning.</li>
-    <li><b>Anchors</b> — Pink Horrors (split three times before vanishing), Possessed, monsters. They sit on
-        objectives and convert enemy effort into wasted turns.</li>
-    <li><b>Hammers</b> — the reserves toolkit. Fade to Darkness returns a killer to Strategic Reserves after it
-        kills; Binding Shadow (1CP) pulls anything uncommitted off the board; every Heretic Astartes unit
-        Deep Strikes free. Your threats attack from angles that didn't exist last turn.</li>
+    <li><b>The sacrifices</b> — your Nurglings and Cultists. Cheap models whose whole job is to stand in the
+        way: they block the paths enemies want to charge through and fill the empty spaces where enemy
+        reinforcements would like to appear. When they die protecting something valuable, they did their job.</li>
+    <li><b>The unmovables</b> — your Pink Horrors and monsters. They stand on the scoring markers and simply
+        refuse to leave. Each Pink Horror that dies becomes two Blue Horrors, and each Blue becomes a living
+        flame — the enemy has to kill the same unit three times to take the ground it stands on.</li>
+    <li><b>The vanishing killers</b> — your army's signature trick. One upgrade, called <i>Fade to Darkness</i>,
+        lets a unit that just killed something disappear off the table and return the next turn anywhere it likes.
+        A second trick, <i>Binding Shadow</i>, pulls any endangered unit to safety the same way. The enemy can
+        never plan around where your threats will be, because last turn's map is already wrong.</li>
   </ul>
-  <p class="lead" style="margin-top:14px">The detachment rule pays each god differently: Khorne advances <i>and</i>
-     charges · Tzeentch gets Stealth +−1 to be hit in melee · Nurgle gets −1 wounded vs high Strength ·
-     Slaanesh ignores snap shooting · your marines get Dark Pacts + Deep Strike.</p>
+  <p class="lead" style="margin-top:14px">Your army rule pays each of the four Chaos gods differently: Khorne's
+     daemons may run <i>and still charge</i> · Tzeentch's daemons are harder to hit · Nurgle's daemons shrug off
+     heavy weapons · Slaanesh's daemons cannot be shot as they charge in · and your mortal Word Bearers
+     soldiers may appear from reserve anywhere on the board.</p>
 `);
 
 /* ————— II. WINNING ————— */
 slide('II · Winning', `
   <div class="chapter"><div class="numeral">II</div>
-  <h1>How to Win in 11th Edition</h1>
-  <p class="lead">Beginner truth #1: games are won on victory points, not kills.
-     A bloodbath you "won" 60–72 is a loss.</p></div>
+  <h1>How to Win — for a New Player</h1>
+  <p class="lead">The first truth of this game: you win on points scored, not enemies killed.
+     A massacre where you forgot to stand on the scoring markers is a loss.</p></div>
 `);
 slide('II · Winning', `
   <h2>The scoring game</h2>
   <ul class="pts">
-    <li><b>Primary: objectives.</b> Markers on the board, scored on your command phases for holding them.
-        Hold two, contest a third — that wins most games. OC (Objective Control) decides holding:
-        a 2 OC Legionary squad out-holds a 0 OC Nurgling swarm every time.</li>
-    <li><b>Purge the Foe</b> (your lists' disposition): bonus points for killing more than you lose each round —
-        it rewards <i>trading up</i>: spend a 45pt screen, take a 200pt reply.</li>
-    <li><b>Turn rhythm:</b> T1 position and screen, don't overextend · T2–3 commit hammers where they
-        kill AND cap · T4–5 pivot everything to scoring — a surviving hammer standing on a marker
-        beats a dead enemy unit.</li>
-    <li><b>Command Points:</b> 1 per turn. One stratagem per unit per phase (new in 11th) — pick the
-        moment, not the habit.</li>
+    <li><b>Stand on the markers.</b> The table has five or so scoring markers. At the start of each of your turns,
+        you score points for every marker where your models outweigh theirs. Hold two markers and fight over a
+        third — that simple habit wins most games. Each unit's card shows a number called
+        <i>objective control</i> — its weight in that tug-of-war. A swarm of Nurglings has a weight of zero:
+        wonderful at being in the way, useless at holding ground. Know which of your units actually count.</li>
+    <li><b>Trade up.</b> Your armies also score for killing more than they lose each round (the rulebook calls
+        this mission style <i>Purge the Foe</i>). The math is simple: if your 45-point screen dies so that your
+        opponent's 200-point knight walks into your counterpunch, you got richer on the exchange.</li>
+    <li><b>The rhythm of a game:</b> turn one, spread out and screen — patience. Turns two and three, commit
+        your killers where they can both kill <i>and</i> claim a marker. Turns four and five, forget glory: a
+        surviving monster standing on a marker is worth more than any kill.</li>
+    <li><b>Your once-per-turn favor.</b> Each turn you earn one <i>command point</i> — currency for special
+        one-time moves called <i>stratagems</i>. New this edition: a unit can only benefit from one such move
+        per phase, so spend it on the moment that matters, not out of habit.</li>
   </ul>
 `);
 
 /* ————— III. MECHANICS ————— */
 slide('III · Mechanics', `
   <div class="chapter"><div class="numeral">III</div>
-  <h1>Basic Mechanics</h1>
-  <p class="lead">The seven-minute version of the rulebook — plus the 11th-edition changes
+  <h1>The Basic Mechanics</h1>
+  <p class="lead">The seven-minute rulebook — and the three changes in this edition
      that quietly favor daemons.</p></div>
 `);
 slide('III · Mechanics', `
   <div class="cols">
   <div>
-  <h2>The dice loop</h2>
+  <h2>How the dice work</h2>
   <ul class="pts">
-    <li><b>Hit</b> — roll ≥ your WS/BS.</li>
-    <li><b>Wound</b> — Strength vs Toughness: S≥2×T on 2s, S&gt;T on 3s, S=T on 4s, S&lt;T on 5s.</li>
-    <li><b>Save</b> — they roll armor (your AP makes it worse) or invulnerable (ignores AP —
-        nearly your whole army has one; it's why cover never helped you before).</li>
-    <li><b>Damage</b> — wounds off the datasheet.</li>
+    <li><b>To hit:</b> roll a six-sided die; your unit's card says what you need.</li>
+    <li><b>To wound:</b> compare the attack's Strength to the target's Toughness. Twice as strong
+        wounds on a 2 or better; stronger on 3+; equal on 4+; weaker on 5+.</li>
+    <li><b>The save:</b> your opponent rolls to shrug the wound off with armor — which good weapons
+        degrade — <i>or</i> with a special save that nothing degrades. Nearly your whole army carries
+        that special save. Daemons don't wear armor; they simply refuse to be real.</li>
+    <li><b>Damage</b> comes off the wounds printed on the card. Zero wounds, dead model.</li>
   </ul>
   </div>
   <div>
-  <h2>11th-ed changes that matter</h2>
+  <h2>This edition's gifts to you</h2>
   <ul class="pts">
-    <li><b>Cover = −1 to be hit</b> (not a save bonus) → army-wide daemon buff. Hug terrain.</li>
-    <li><b>Hidden / Gone to Ground</b> — infantry in terrain that held fire is undetectable beyond
-        15" (12" obscured). Nurglings become ghosts.</li>
-    <li><b>Deep strike</b> — arrive 9"+ from enemies; a 9" charge lands ~28%. Plan arrivals near
-        weakened targets, not fresh ones.</li>
-    <li><b>Leaders</b> — characters attach to specific units only (foot Lord → Legionaries;
-        Skullmaster → Bloodcrushers). Check before you buy or build.</li>
-    <li><b>Split</b> — each dead Pink Horror becomes 2 Blues; dead Blues become Brimstones.
-        Your anchor unit dies three times.</li>
+    <li><b>Hiding behind things now makes you harder to hit</b> (instead of improving armor, which
+        daemons barely use). For the first time, your whole army benefits from terrain. Hug it.</li>
+    <li><b>Quiet infantry become invisible.</b> Foot units inside terrain that held their fire simply
+        cannot be seen from more than fifteen inches away. Your Nurglings become ghosts.</li>
+    <li><b>Reinforcements arrive nine inches from enemies</b> — and a nine-inch charge succeeds
+        barely one time in four. So drop your reserves next to something already wounded, or next
+        to a marker no one is guarding, not next to a fresh enemy line and a prayer.</li>
+    <li><b>Leaders join only their own kind.</b> A Chaos Lord on foot may lead Legionaries; a lord in
+        heavy Terminator plate may only lead Terminators. Check the pairing before you buy or build.</li>
   </ul>
   </div>
   </div>
 `);
 
-/* ————— IV. LISTS ————— */
-slide('IV · The Lists', `
+/* ————— IV. ARMIES ————— */
+slide('IV · The Armies', `
   <div class="chapter"><div class="numeral">IV</div>
-  <h1>The Three Lists</h1>
-  <p class="lead">Your Yo-Yo Court (what's arriving this week) and the two 4-1 tournament builds
-     it grows into. Same detachment, three personalities.</p></div>
+  <h1>The Three Armies</h1>
+  <p class="lead">Your army as it stands this week — then the two armies that each won four of five
+     games at real tournaments this month. Same rules, three personalities.</p></div>
 `);
-slide('IV · The Lists', `
-  <h2>A · The Yo-Yo Court <span style="color:var(--dim);font-size:.55em">— Evan's list · learning build</span></h2>
+slide('IV · The Armies', `
+  <h2>A · The Yo-Yo Court <span style="color:var(--dim);font-size:.55em">— your army, the learning build</span></h2>
   <div class="cols">
   <div class="tbl"><table>
-    <tr><th>Unit</th><th style="text-align:right">Pts</th><th></th></tr>
-    <tr><td>Be'lakor — Warlord</td><td class="n">390</td><td><span class="tag own">own</span></td></tr>
+    <tr><th>Unit</th><th style="text-align:right">Points</th><th></th></tr>
+    <tr><td>Be'lakor — your general</td><td class="n">390</td><td><span class="tag own">own</span></td></tr>
     <tr><td>Lord of Change</td><td class="n">320</td><td><span class="tag own">own</span></td></tr>
-    <tr><td>Chaos Lord (Mallex) +Fade → Legionaries ×5</td><td class="n">210</td><td><span class="tag own">ordered</span></td></tr>
-    <tr><td>Legionaries ×5</td><td class="n">90</td><td><span class="tag own">own</span></td></tr>
-    <tr><td>MoP → Possessed ×5</td><td class="n">180</td><td><span class="tag own">own</span></td></tr>
-    <tr><td>Havocs ×5</td><td class="n">125</td><td><span class="tag own">own</span></td></tr>
-    <tr><td>Fateskimmer → Screamers ×3</td><td class="n">175</td><td><span class="tag own">own</span></td></tr>
-    <tr><td>Exalted Flamer → Pink Horrors ×10</td><td class="n">215</td><td><span class="tag own">own</span></td></tr>
-    <tr><td>Nurglings ×3 ×2</td><td class="n">90</td><td><span class="tag own">own</span></td></tr>
-    <tr><td>Flamers ×3</td><td class="n">65</td><td><span class="tag own">own</span></td></tr>
-    <tr><td>Flesh Hounds ×5</td><td class="n">75</td><td><span class="tag own">ordered</span></td></tr>
-    <tr><td>Cultist Mob ×10</td><td class="n">50</td><td><span class="tag own">own</span></td></tr>
+    <tr><td>Chaos Lord (Mallex) with Fade to Darkness, leading 5 Legionaries</td><td class="n">210</td><td><span class="tag own">ordered</span></td></tr>
+    <tr><td>5 more Legionaries</td><td class="n">90</td><td><span class="tag own">own</span></td></tr>
+    <tr><td>Master of Possession leading 5 Possessed</td><td class="n">180</td><td><span class="tag own">own</span></td></tr>
+    <tr><td>5 Havocs (the heavy guns)</td><td class="n">125</td><td><span class="tag own">own</span></td></tr>
+    <tr><td>Fateskimmer with 3 Screamers</td><td class="n">175</td><td><span class="tag own">own</span></td></tr>
+    <tr><td>Exalted Flamer with 10 Pink Horrors</td><td class="n">215</td><td><span class="tag own">own</span></td></tr>
+    <tr><td>Nurglings, two swarms</td><td class="n">90</td><td><span class="tag own">own</span></td></tr>
+    <tr><td>3 Flamers</td><td class="n">65</td><td><span class="tag own">own</span></td></tr>
+    <tr><td>5 Flesh Hounds</td><td class="n">75</td><td><span class="tag own">ordered</span></td></tr>
+    <tr><td>10 Cultists</td><td class="n">50</td><td><span class="tag own">own</span></td></tr>
   </table></div>
   <div>
   <ul class="pts">
-    <li><b>Add-ons:</b> Fade to Darkness 30 on the Chaos Lord. (Add Leaping Shadows 25 if points allow.)</li>
-    <li><b>The loop:</b> Lord + Legionaries deep strike → charge a lone objective-holder → kill → Fade to
-        reserves at end of Fight → free Rapid Ingress back on the opponent's turn → repeat. Only
-        Overwatch can touch them.</li>
-    <li><b>Be'lakor</b> holds center with the Horror blob; Lord of Change shoots from behind them;
-        Havocs punish armor from home; hounds and Screamers do actions and grab corners.</li>
+    <li><b>The signature play:</b> Mallex and his Legionaries appear from reserve, charge whoever is
+        babysitting a scoring marker, kill them, then <i>Fade</i> away at the end of the fight. On your
+        opponent's own turn, Mallex's once-per-battle-round free favor brings the squad straight back.
+        The only thing that can ever touch them is a lucky snap shot as they charge.</li>
+    <li><b>Everyone else has one job:</b> Be'lakor stands at the center and is terrifying · the Lord of
+        Change rains fire from behind the Horrors · the Havocs sit home and crack armor · the hounds
+        and Screamers run errands at the board edges.</li>
   </ul>
-  <p class="total">≈ 1,985 / 2,000 · HA well under cap · verify in app</p>
+  <p class="total">About 1,985 of 2,000 points · confirm in the official app before a tournament</p>
   </div></div>
 `);
-slide('IV · The Lists', `
-  <h2>B · Marney's Edinburgh list <span style="color:var(--dim);font-size:.55em">— 4-1 at a 231-player Super Major</span></h2>
+slide('IV · The Armies', `
+  <h2>B · Marney's army <span style="color:var(--dim);font-size:.55em">— won 4 of 5 at a 231-player event in Edinburgh</span></h2>
   <div class="cols">
   <div class="tbl"><table>
-    <tr><th>Unit</th><th style="text-align:right">Pts</th></tr>
-    <tr><td>Be'lakor — Warlord</td><td class="n">390</td></tr>
-    <tr><td>Bloodthirster +Fade to Darkness</td><td class="n">350</td></tr>
-    <tr><td>Rendmaster on Blood Throne ×2</td><td class="n">300</td></tr>
-    <tr><td>Skullmaster → Bloodcrushers ×6 +Soul-shattering Charge</td><td class="n">275</td></tr>
-    <tr><td>Bloodcrushers ×6 +Soul-shattering Charge</td><td class="n">190</td></tr>
-    <tr><td>Bloodmaster → Bloodletters ×10</td><td class="n">175</td></tr>
-    <tr><td>Bloodletters ×10 ×2</td><td class="n">220</td></tr>
-    <tr><td>Nurglings ×3</td><td class="n">45</td></tr>
-    <tr><td>Cultist Mob ×10</td><td class="n">50</td></tr>
+    <tr><th>Unit</th><th style="text-align:right">Points</th></tr>
+    <tr><td>Be'lakor — general</td><td class="n">390</td></tr>
+    <tr><td>Bloodthirster with Fade to Darkness</td><td class="n">350</td></tr>
+    <tr><td>Two Rendmasters on Blood Thrones</td><td class="n">300</td></tr>
+    <tr><td>Skullmaster leading 6 Bloodcrushers, with Soul-shattering Charge</td><td class="n">275</td></tr>
+    <tr><td>6 more Bloodcrushers, also with Soul-shattering Charge</td><td class="n">190</td></tr>
+    <tr><td>Bloodmaster leading 10 Bloodletters</td><td class="n">175</td></tr>
+    <tr><td>Two more squads of 10 Bloodletters</td><td class="n">220</td></tr>
+    <tr><td>Nurglings</td><td class="n">45</td></tr>
+    <tr><td>10 Cultists</td><td class="n">50</td></tr>
   </table></div>
   <div>
   <ul class="pts">
-    <li><b>Detachments:</b> Shadow Legion + Cavalcade of Chaos (3 DP) — the second detachment
-        supplies Soul-shattering Charge for the crusher bricks.</li>
-    <li><b>The plan:</b> thirty Bloodletters flood the midboard as advancing-charging battleline; two
-        crusher bricks and the Fadethirster take turns being the problem; Rendmaster thrones follow
-        the cavalry with buff auras. Be'lakor anchors and screens re-entry lanes.</li>
-    <li><b>Record:</b> beat Votann, Grey Knights, Custodes, Necrons; lost only to Space Marines.</li>
+    <li><b>The idea:</b> thirty Bloodletters flood the middle of the board — Khorne units here may run and
+        still charge, so they arrive a turn earlier than anyone expects. Behind them, two bricks of
+        juggernaut cavalry and a Fading Bloodthirster take turns being the biggest problem on the table,
+        while the Blood Thrones ride alongside making the cavalry hit even harder.</li>
+    <li><b>Why it works for a newer player to study:</b> every unit points the same direction. There is no
+        clever timing to fumble — screens forward, cavalry through, general holds the center.</li>
+    <li><b>The record:</b> beat four different armies; its one loss was to Space Marines.</li>
   </ul>
-  <p class="total">1,995 / 2,000</p>
+  <p class="total">1,995 of 2,000 points</p>
   </div></div>
 `);
-slide('IV · The Lists', `
-  <h2>C · "Red Bull Gives You Skulls" <span style="color:var(--dim);font-size:.55em">— Kersley, 4-1, Burn &amp; Learn v17</span></h2>
+slide('IV · The Armies', `
+  <h2>C · "Red Bull Gives You Skulls" <span style="color:var(--dim);font-size:.55em">— Kersley's army, won 4 of 5</span></h2>
   <div class="cols">
   <div class="tbl"><table>
-    <tr><th>Unit</th><th style="text-align:right">Pts</th></tr>
-    <tr><td>Bloodthirster +Fade — <b>Warlord (no Be'lakor!)</b></td><td class="n">350</td></tr>
-    <tr><td>Skullmaster +Leaping Shadows → Bloodcrushers ×6</td><td class="n">290</td></tr>
-    <tr><td>Skullmaster → Bloodcrushers ×6 +SSC</td><td class="n">275</td></tr>
-    <tr><td>Skullmaster → Bloodcrushers ×6 +SSC</td><td class="n">285</td></tr>
-    <tr><td>Great Unclean One +Mantle of Gloom</td><td class="n">285</td></tr>
+    <tr><th>Unit</th><th style="text-align:right">Points</th></tr>
+    <tr><td>Bloodthirster with Fade to Darkness — the general (no Be'lakor!)</td><td class="n">350</td></tr>
+    <tr><td>Skullmaster with Leaping Shadows, leading 6 Bloodcrushers</td><td class="n">290</td></tr>
+    <tr><td>Skullmaster leading 6 Bloodcrushers, with Soul-shattering Charge</td><td class="n">275</td></tr>
+    <tr><td>A third Skullmaster with 6 more Bloodcrushers, same upgrade</td><td class="n">285</td></tr>
+    <tr><td>Great Unclean One with Mantle of Gloom</td><td class="n">285</td></tr>
     <tr><td>Rendmaster on Blood Throne</td><td class="n">150</td></tr>
-    <tr><td>Beasts of Nurgle ×1</td><td class="n">70</td></tr>
-    <tr><td>Flesh Hounds ×5</td><td class="n">75</td></tr>
-    <tr><td>Plague Drones ×3 ×2</td><td class="n">220</td></tr>
+    <tr><td>A Beast of Nurgle</td><td class="n">70</td></tr>
+    <tr><td>5 Flesh Hounds</td><td class="n">75</td></tr>
+    <tr><td>Two squads of 3 Plague Drones</td><td class="n">220</td></tr>
   </table></div>
   <div>
   <ul class="pts">
-    <li><b>Eighteen Bloodcrushers.</b> One brick scouts 9" (Leaping Shadows) and threatens a
-        turn-one charge; the other two advance-and-charge behind it. Wave after wave.</li>
-    <li><b>No Be'lakor</b> — proof he's optional in the detachment. The GUO with Mantle of Gloom
-        squats the center instead, draining enemy OC in melee.</li>
-    <li><b>Nurgle utility</b> (Beasts, Drones, hounds) does all scoring and actions while the
-        cavalry deletes things. Won every game but the mirror.</li>
+    <li><b>Eighteen juggernauts.</b> One cavalry brick starts the game nine inches further forward
+        (that's what <i>Leaping Shadows</i> buys) and threatens a charge on turn one. The other two
+        thunder in behind it, wave after wave.</li>
+    <li><b>No Be'lakor</b> — proof your detachment doesn't require him. In his place, a mountain of
+        rot squats on the center marker; its <i>Mantle of Gloom</i> weakens the grip of any enemy
+        that comes close enough to wrestle for the ground.</li>
+    <li><b>The quiet half wins the game:</b> the Beast, the drones, and the hounds do all the errand-running
+        and marker-sitting while the cavalry deletes things. It won every game except against another daemon army.</li>
   </ul>
-  <p class="total">2,000 / 2,000</p>
+  <p class="total">2,000 of 2,000 points</p>
   </div></div>
 `);
-slide('IV · The Lists', `
+slide('IV · The Armies', `
   <h2>The road between them</h2>
   <ul class="pts">
-    <li><b>Now (this week):</b> field List A. It teaches Fade timing, screening, split mechanics, and
-        Be'lakor positioning — with 100% owned, painted models.</li>
-    <li><b>Next purchases</b> (in tournament order): Bloodthirster → Skullmaster + Bloodcrushers ×6 →
-        Rendmaster → more Bloodletters (bid pending). Each buy converts List A one step toward Marney's shape.</li>
-    <li><b>The insight from the top tables:</b> the CSM wing (Legionaries, Chaos Lord) is a learning
-        scaffold — top lists run pure daemons plus one Cultist Mob. Don't over-invest in marines;
-        invest in juggernauts.</li>
-    <li><b>Open research:</b> Cavalcade of Chaos rules text (the second detachment both lists pair in) —
-        flagged in research.md for the next pass.</li>
+    <li><b>This week:</b> play your Yo-Yo Court. It teaches the vanishing trick, screening, and how the
+        Horrors die three deaths — with models you own, every one painted.</li>
+    <li><b>The buying road, in order:</b> a Bloodthirster → a Skullmaster with six Bloodcrushers → a Blood
+        Throne → more Bloodletters (your auction bid is already aimed there). Each purchase moves your
+        army one step toward Marney's.</li>
+    <li><b>The lesson from the winners' tables:</b> both tournament armies dropped the mortal Word Bearers
+        soldiers almost entirely — a single squad of Cultists survives. Your Legionaries are training wheels,
+        and good ones. Spend future money on juggernauts, not marines.</li>
+    <li><b>Still to research:</b> both winning armies pair your detachment with a second one called
+        <i>Cavalcade of Chaos</i> — the source of that Soul-shattering Charge upgrade. Its full rules
+        are the next thing to pull.</li>
   </ul>
-  <p class="lead" style="margin-top:16px">Sources: verified MFM v1.1 points · Listhammer lists 6c5bcb0f / 2c3a937a ·
-     Wahapedia 11e · full citations in research.md.</p>
+  <p class="lead" style="margin-top:16px">Evidence: the two tournament army lists are public on Listhammer;
+     points and rules were verified against the official July 2026 update. Full citations live in the project's
+     research file.</p>
 `);
 
 /* ————— engine ————— */
